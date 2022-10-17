@@ -4,7 +4,7 @@ from sendgrid import SendGridAPIClient
 
 # sg = SendGridAPIClient((''))
 
-# list_id = "5f208410-1a15-4e89-88f6-6265fefa35e8"
+# list_id = ""
 # params = {'list_id': 4900}
 # data = {
 #     "name": "alamin"
@@ -43,7 +43,7 @@ from sendgrid import SendGridAPIClient
 # from sendgrid import SendGridAPIClient
 
 
-sg = SendGridAPIClient('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')
+sg = SendGridAPIClient('')
 
 data = {
     "contacts":[
