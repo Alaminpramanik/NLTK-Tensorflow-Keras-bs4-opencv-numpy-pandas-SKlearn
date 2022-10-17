@@ -2,7 +2,7 @@ import os
 from sendgrid import SendGridAPIClient
 
 
-# sg = SendGridAPIClient(('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'))
+# sg = SendGridAPIClient((''))
 
 # list_id = "5f208410-1a15-4e89-88f6-6265fefa35e8"
 # params = {'list_id': 4900}
@@ -24,7 +24,7 @@ from sendgrid import SendGridAPIClient
 # from sendgrid import SendGridAPIClient
 
 
-# sg = SendGridAPIClient(os.environ.get('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'))
+# sg = SendGridAPIClient(os.environ.get(''))
 
 # id = "5f208410-1a15-4e89-88f6-6265fefa35e8"
 # data = {
@@ -65,7 +65,7 @@ print(response.headers)
 # from sendgrid import SendGridAPIClient
 
 
-# sg = SendGridAPIClient(('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'), impersonate_subuser = "The subuser's username. This header generates the API call as if the subuser account was making the call.")
+# sg = SendGridAPIClient((''), impersonate_subuser = "The subuser's username. This header generates the API call as if the subuser account was making the call.")
 
 # data = {
 #     "name": "poroshpramanik@gmail.com"
